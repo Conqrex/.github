@@ -28,21 +28,14 @@ One C# codebase rendering 2D, 2.5D isometric and 3D — the foundation under eve
 
 | Game | Genre | Status |
 | --- | --- | --- |
-| [**Runebound Arena**](https://conqrex.com/games/runebound) | Scriptcraft Combat | 🔨 In development |
 | [**Runebound Online**](https://conqrex.com/games/runebound-online) | Scripted-Combat MMORPG | 🔨 In development |
-| [**NullRoute**](https://conqrex.com/games/nullroute) | Hacking Extraction | ▶️ Playable on web |
-| [**Watermark**](https://conqrex.com/games/watermark) | Forgery Workshop | ▶️ Playable on web |
-| [**Coreward**](https://conqrex.com/games/coreward) | Dig-to-the-Core Siege | ▶️ Playable on web |
-| [**CS2D**](https://conqrex.com/games/cs2d) | Top-Down Tactical CTF | ▶️ Playable on web |
 | [**Shadow Sovereign**](https://conqrex.com/games/shadow-sovereign) | Arcane Chess | ▶️ Playable on web |
-| [**The Route**](https://conqrex.com/games/the-route) | Transit Inspection Sim | 🔨 In development |
-| [**Patch Notes**](https://conqrex.com/games/patch-notes) | Live-Patch Co-op Survival | 🔨 In development |
 
 ---
 
 <div align="center">
 
-**[conqrex.com](https://conqrex.com)** · [saydinicen9@gmail.com](mailto:saydinicen9@gmail.com) · [@SancaK9](https://github.com/SancaK9)
+**[conqrex.com](https://conqrex.com)** · [sancak@conqrex.com](mailto:sancak@conqrex.com) · [@SancaK9](https://github.com/SancaK9)
 
 <sub>⟨/⟩ CODE &nbsp;·&nbsp; ◇ CREATE &nbsp;·&nbsp; ✕ CONQUER</sub>
 
