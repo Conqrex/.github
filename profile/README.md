@@ -4,7 +4,7 @@
 
 ### `CODE. CREATE. CONQUER.`
 
-[**Website**](https://conqrex.com) · [**Games**](https://conqrex.com/games) · [**Engine**](https://conqrex.com/engine) · [**About**](https://conqrex.com/about)
+[**Website**](https://conqrex.com) · [**Engine**](https://conqrex.com/engine) · [**About**](https://conqrex.com/about)
 
 </div>
 
@@ -26,10 +26,7 @@ One C# codebase rendering 2D, 2.5D isometric and 3D — the foundation under eve
 
 ## 🎮 Games
 
-| Game | Genre | Status |
-| --- | --- | --- |
-| [**Runebound Online**](https://conqrex.com/games/runebound-online) | Scripted-Combat MMORPG | 🔨 In development |
-| [**Shadow Sovereign**](https://conqrex.com/games/shadow-sovereign) | Arcane Chess | ▶️ Playable on web |
+New titles are being built on Conqrex.Engine's autonomous GameSpec pipeline — announcements coming to [conqrex.com](https://conqrex.com).
 
 ---
 
