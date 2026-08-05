@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://conqrex.com"><img src="assets/banner.png" alt="Conqrex — Software & Game Development" width="100%" /></a>
+<a href="https://conqrex.com"><img src="assets/conqrex-banner.png" alt="Conqrex — Software & Game Development" width="100%" /></a>
 
 ### `CODE. CREATE. CONQUER.`
 
