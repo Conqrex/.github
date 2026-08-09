@@ -52,6 +52,7 @@ Tools we built for our own workflow and released for yours.
 
 | Project | What it does |
 | --- | --- |
+| **[Conqrex.CrewBeacon](https://github.com/Conqrex/Conqrex.CrewBeacon)** | Monitor AI provider quota, weekly limits, live local and remote Paseo agents, attention states and detailed daily usage history from one KDE Plasma 6 panel widget. |
 | **[Conqrex.OctoPulse](https://github.com/Conqrex/Conqrex.OctoPulse)** | Every GitHub Actions run across all your repos and orgs, live in one KDE Plasma 6 panel widget — re-run, cancel, dispatch and read logs without opening a browser tab. |
 | **[Conqrex.Dockswain](https://github.com/Conqrex/Conqrex.Dockswain)** | Manage Docker hosts over SSH from your panel: containers, compose, logs, SFTP file manager and nginx/certbot tooling. |
 
