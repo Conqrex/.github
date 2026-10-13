@@ -10,7 +10,7 @@ then we build games on top of them.</p>
 
 <p>
   <img src="https://img.shields.io/badge/Built%20with-C%23-8b5cf6?style=flat-square&logo=dotnet&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/Runs%20on-Web%20·%20Desktop%20·%20Mobile-3b82f6?style=flat-square" alt="Platforms">
+  <img src="https://img.shields.io/badge/Runs%20on-Web%20·%20Desktop%20·%20Android-3b82f6?style=flat-square" alt="Platforms">
   <img src="https://img.shields.io/badge/Rendering-WebGPU-eab308?style=flat-square" alt="WebGPU">
   <img src="https://img.shields.io/badge/Open%20tools-MIT-22c55e?style=flat-square" alt="MIT licensed tools">
 </p>
@@ -31,20 +31,30 @@ then we build games on top of them.</p>
 
 One C# codebase rendering **2D, 2.5D isometric and 3D** — the foundation under every Conqrex title.
 
+<a href="https://conqrex.com/engine"><img src="assets/conqrex-editor.png" alt="The Conqrex editor with the Astral Veil project open: scene hierarchy, 3D viewport and Inspector" width="100%"></a>
+
 |     |     |
 | --- | --- |
-| 🌐 **Every surface** | One codebase ships to the browser (Blazor/WASM), mobile (.NET MAUI) and desktop (Windows / macOS / Linux). |
-| 🎯 **Deterministic core** | Fixed 30 Hz simulation with fixed-point math; rendering interpolates as fast as the surface allows. |
+| 🌐 **Every surface** | One codebase ships to the browser (WebAssembly), Android and desktop (Windows / macOS / Linux), plus a headless dedicated server. |
+| 🎯 **Deterministic core** | A project-selected fixed simulation tick (30–180 Hz, 60 by default) with fixed-point math; rendering interpolates as fast as the surface allows. |
 | 🖼️ **Our own GPU layer** | A WebGPU-first rendering hardware interface, with WebGL2 and native `wgpu` backends behind it. |
-| 🔌 **Multiplayer built in** | RPCs, sync types, observers, client prediction and reconciliation — not a bolt-on. |
-| 🧰 **Full toolchain** | Entity-component scenes, asset pipeline, input, audio, animation, physics and a desktop visual editor. |
+| 🧰 **Tools in one editor** | Scenes and prefabs, tile and terrain tools, pixel art (Conqrex Pixel), music (Conqrex Music) and built-in 3D modelling, next to physics, animation, audio and UI. |
+| 🤖 **Human + AI authoring** | AI-assisted tools work through the same operations as the editor's own menus, so every change lands in the undo history. |
+| 🔌 **Multiplayer, in progress** | RPCs, synchronised variables, observers, client prediction and reconciliation, with a dedicated server Player. |
 
 **[→ Meet the engine](https://conqrex.com/engine)**
 
 ## 🎮 Games
 
-New titles are in production on Conqrex.Engine's autonomous **GameSpec** pipeline —
-specs in, playable builds out. Announcements land at **[conqrex.com](https://conqrex.com)**.
+**Astral Veil** is in development on Conqrex.Engine: a one-finger cosmic survival arcade with seven ships and eleven relics.
+
+<p align="center">
+  <a href="https://conqrex.com/#showcase"><img src="assets/astral-veil-home.webp" alt="Astral Veil title screen" width="31%"></a>
+  &nbsp;
+  <a href="https://conqrex.com/#showcase"><img src="assets/astral-veil-hangar.webp" alt="Astral Veil ship hangar" width="31%"></a>
+</p>
+
+Announcements land at **[conqrex.com](https://conqrex.com)**.
 
 ## 🐙 Open source
 
@@ -70,5 +80,14 @@ reach us at **[sancak@conqrex.com](mailto:sancak@conqrex.com)**.
 **[conqrex.com](https://conqrex.com)** · [sancak@conqrex.com](mailto:sancak@conqrex.com) · [@SancaK9](https://github.com/SancaK9)
 
 <sub>⟨/⟩ CODE &nbsp;·&nbsp; ◇ CREATE &nbsp;·&nbsp; ✕ CONQUER</sub>
+
+<br><br>
+
+<a href="https://conqrex.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/conqrex-wordmark-dark.svg">
+    <img src="assets/conqrex-wordmark-light.svg" alt="Conqrex" width="240">
+  </picture>
+</a>
 
 </div>
