@@ -33,6 +33,8 @@ then we build games on top of them.</p>
 
 A **C# / .NET 10** engine for **2D, isometric, and 3D** games. Build the scene, shape its characters, paint their surfaces, compose the soundtrack, and give it all rules to play by. The creative tools and the runtime grow together through the games we make.
 
+**Built-in creation tools. No local AI model required.** The models, materials, animations, and music in Beasts of Burner and Knux were created with the engine’s built-in tools, without running local generative AI models. [Forge](https://conqrex.com/engine#tool-forge) is an optional integration for a separately installed local image model; it was not used in either game.
+
 <a href="https://conqrex.com/engine"><img src="assets/burner-editor-workspace.webp" alt="Beasts of Burner in the Conqrex editor: a kitchen on a giant tortoise, with the scene hierarchy and character Inspector open" width="100%"></a>
 
 *Beasts of Burner in the editor. An actual project capture, with the kitchen, characters, and surrounding world in one scene.*
@@ -43,7 +45,7 @@ A **C# / .NET 10** engine for **2D, isometric, and 3D** games. Build the scene, 
 | **Creative tools** | Sculpt for 3D modelling, Canvas for textures and materials, Rig for animation, Pixel for sprites, and Music for composition and adaptive audio. Shader Graph, particles, dialogue, and cinematic timelines extend the workflow. |
 | **Runtime** | Fixed-step simulation and interpolated rendering; 2D and 3D physics, navigation, animation, game UI, input, and audio. |
 | **Rendering** | WebGPU and native `wgpu` backends, with a more limited WebGL2 compatibility tier. Advanced rendering features vary by backend. |
-| **AI-assisted authoring** | Built-in chat and external MCP clients can inspect projects, use supported editor operations, run play sessions, and capture results. GameSpec and Autonomous Studio workflows are evolving. |
+| **AI-assisted authoring** | Hosted AI assistants can operate the built-in tools without local model inference. Built-in chat and external MCP clients can inspect projects, use supported editor operations, run play sessions, and capture results. GameSpec and Autonomous Studio workflows are evolving. |
 | **Networking** | Replicated state, remote calls, client prediction, reconciliation, and dedicated servers. Hosting and game-specific online services require separate setup; internet-scale qualification is ongoing. |
 | **Build targets** | Desktop, WebAssembly, Android, and headless server Players. These are development targets; the publicly playable game previews below run in the browser. |
 
