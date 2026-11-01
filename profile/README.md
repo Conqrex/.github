@@ -10,16 +10,16 @@ then we build games on top of them.</p>
 
 <p>
   <img src="https://img.shields.io/badge/Built%20with-C%23-F34113?style=flat-square&labelColor=0D131B" alt="Built with C#">
-  <img src="https://img.shields.io/badge/Runs%20on-Web%20·%20Desktop%20·%20Android-F34113?style=flat-square&labelColor=0D131B" alt="Runs on web, desktop and Android">
-  <img src="https://img.shields.io/badge/Rendering-WebGPU-F34113?style=flat-square&labelColor=0D131B" alt="WebGPU rendering">
-  <img src="https://img.shields.io/badge/Open%20tools-MIT-F34113?style=flat-square&labelColor=0D131B" alt="MIT licensed tools">
+  <img src="https://img.shields.io/badge/.NET-10-F34113?style=flat-square&labelColor=0D131B" alt=".NET 10">
 </p>
 
 <p>
   <a href="https://conqrex.com"><b>Website</b></a> ·
   <a href="https://conqrex.com/engine"><b>Engine</b></a> ·
+  <a href="#games"><b>Games</b></a> ·
   <a href="#open-source"><b>Open Source</b></a> ·
-  <a href="https://conqrex.com/about"><b>About</b></a> ·
+  <a href="https://conqrex.com/about"><b>Studio</b></a> ·
+  <a href="#support-the-work"><b>Support</b></a> ·
   <a href="mailto:sancak@conqrex.com"><b>Contact</b></a>
 </p>
 
@@ -29,34 +29,51 @@ then we build games on top of them.</p>
 
 ## Conqrex.Engine
 
-One C# codebase rendering **2D, 2.5D isometric and 3D** — the foundation under every Conqrex title.
+**In active development · Public engine access is not available yet.**
 
-<a href="https://conqrex.com/engine"><img src="assets/conqrex-editor.webp" alt="The Conqrex editor with the Astral Veil project open: menus, tools, scene hierarchy and 3D viewport" width="100%"></a>
+A **C# / .NET 10** engine for **2D, isometric, and 3D** games. Build the scene, shape its characters, paint their surfaces, compose the soundtrack, and give it all rules to play by. The creative tools and the runtime grow together through the games we make.
 
-|     |     |
+<a href="https://conqrex.com/engine"><img src="assets/burner-editor-workspace.webp" alt="Beasts of Burner in the Conqrex editor: a kitchen on a giant tortoise, with the scene hierarchy and character Inspector open" width="100%"></a>
+
+*Beasts of Burner in the editor. An actual project capture, with the kitchen, characters, and surrounding world in one scene.*
+
+| Area | What we are building |
 | --- | --- |
-| **Every surface** | One codebase ships to the browser (WebAssembly), Android and desktop (Windows / macOS / Linux), plus a headless dedicated server. |
-| **Deterministic core** | A project-selected fixed simulation tick (30–180 Hz, 60 by default) with fixed-point math; rendering interpolates as fast as the surface allows. |
-| **Our own GPU layer** | A WebGPU-first rendering hardware interface, with WebGL2 and native `wgpu` backends behind it. |
-| **Tools in one editor** | Scenes and prefabs, tile and terrain tools, pixel art (Conqrex Pixel), music (Conqrex Music) and built-in 3D modelling, next to physics, animation, audio and UI. |
-| **Human + AI authoring** | AI-assisted tools work through the same operations as the editor's own menus, so every change lands in the undo history. |
-| **Multiplayer, in progress** | RPCs, synchronised variables, observers, client prediction and reconciliation, with a dedicated server Player. |
+| **Workspace** | The project Hub, scenes, nested prefabs, a multi-object Inspector, C# components, hot reload, and play controls. |
+| **Creative tools** | Sculpt for 3D modelling, Canvas for textures and materials, Rig for animation, Pixel for sprites, and Music for composition and adaptive audio. Shader Graph, particles, dialogue, and cinematic timelines extend the workflow. |
+| **Runtime** | Fixed-step simulation and interpolated rendering; 2D and 3D physics, navigation, animation, game UI, input, and audio. |
+| **Rendering** | WebGPU and native `wgpu` backends, with a more limited WebGL2 compatibility tier. Advanced rendering features vary by backend. |
+| **AI-assisted authoring** | Built-in chat and external MCP clients can inspect projects, use supported editor operations, run play sessions, and capture results. GameSpec and Autonomous Studio workflows are evolving. |
+| **Networking** | Replicated state, remote calls, client prediction, reconciliation, and dedicated servers. Hosting and game-specific online services require separate setup; internet-scale qualification is ongoing. |
+| **Build targets** | Desktop, WebAssembly, Android, and headless server Players. These are development targets; the publicly playable game previews below run in the browser. |
 
-The engine is in active development and public access is not available yet.
-
-**[→ Meet the engine](https://conqrex.com/engine)**
+**[Explore the engine and its current capabilities](https://conqrex.com/engine)**
 
 ## Games
 
-**Astral Veil** is in development on Conqrex.Engine: a one-finger cosmic survival arcade with seven ships and eleven relics.
+Two worlds made with Conqrex.Engine. Both are **in development**, with **browser previews** you can play today.
 
-<p align="center">
-  <a href="https://conqrex.com/#showcase"><img src="assets/astral-veil-home.webp" alt="Astral Veil title screen" width="31%"></a>
-  &nbsp;
-  <a href="https://conqrex.com/#showcase"><img src="assets/astral-veil-hangar.webp" alt="Astral Veil ship hangar" width="31%"></a>
-</p>
+### Beasts of Burner
 
-Announcements land at **[conqrex.com](https://conqrex.com)**.
+**Kitchens on the backs of giants. Everything is on fire.**
+
+A 3D cooking party game where animal chefs prepare and serve orders on enormous living creatures. The kitchen, the characters, and the soundtrack were built alongside the engine tools that make them possible.
+
+<a href="https://burner.conqrex.com/"><img src="assets/beasts-of-burner.webp" alt="Beasts of Burner title screen, with the kitchen on a giant tortoise and a Play button" width="100%"></a>
+
+**[Play in your browser](https://burner.conqrex.com/)** · **[Explore the making of](https://conqrex.com/showcase/burner)**
+
+### Knux
+
+**Find your gym. Build your fighter. Earn your place.**
+
+An isometric 3D boxing RPG built around training, fighter progression, and life around the gym. Explore its neighbourhoods, characters, and the systems behind the bouts.
+
+<a href="https://knux.conqrex.com/"><img src="assets/knux-gym.webp" alt="Knux gym with boxing rings, training equipment, an NPC coach, and the player fighter" width="100%"></a>
+
+**[Play in your browser](https://knux.conqrex.com/)** · **[Explore the making of](https://conqrex.com/showcase/knux)**
+
+The showcases include development captures, interactive 3D models, original music, and the process from early shapes to playable scenes. Desktop downloads are not currently offered on the site.
 
 ## Open source
 
@@ -70,10 +87,15 @@ Tools we built for our own workflow and released for yours.
 
 Issues and pull requests are welcome on every public repository.
 
+## Support the work
+
+Conqrex is an independent studio. If you enjoy the games, tools, or the process behind them, you can support Serhan’s work on Conqrex through **[Buy Me a Coffee](https://buymeacoffee.com/sancak)**.
+
+It is an optional way to support the work. Playing the previews, sharing feedback, and contributing to the public tools also help.
+
 ## Work with us
 
-Engine licensing, collaboration, or just a good question —
-reach us at **[sancak@conqrex.com](mailto:sancak@conqrex.com)**.
+For collaboration, future engine access, or a question about our work, reach us at **[sancak@conqrex.com](mailto:sancak@conqrex.com)**.
 
 ---
 
